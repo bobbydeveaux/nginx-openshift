@@ -1,9 +1,10 @@
-# NGINX Openshift Image
+#NGINX Openshift Image
 
 ## Running on OpenShift
 
 `oc new-app https://github.com/bobbydeveaux/nginx-openshift --name nginx-example`
-`oc expose nginx-example`
+
+`oc expose svc/nginx-example`
 
 ## Notes
 
