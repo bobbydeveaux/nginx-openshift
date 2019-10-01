@@ -2,7 +2,8 @@
 
 ## Running on OpenShift
 
-`oc new-app https://github.com/bobbydeveaux/nginx-openshift`
+`oc new-app https://github.com/bobbydeveaux/nginx-openshift --name nginx-example`
+`oc expose nginx-example`
 
 ## Notes
 
